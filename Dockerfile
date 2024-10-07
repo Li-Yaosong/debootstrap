@@ -1,4 +1,4 @@
-FROM liyaosong/ubuntu:20.04
+FROM liyaosong/ubuntu:24.04
 
 RUN apt-get update && \
     apt-get install debootstrap -y && \
